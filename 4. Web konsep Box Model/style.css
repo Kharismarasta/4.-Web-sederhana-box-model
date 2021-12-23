@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 16px;
+}
+
+.header .judul {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+
+.header ul li a{    
+    text-decoration: none;
+    color: lightseagreen;
+    padding: 10px;
+}
+
+.header ul li a:hover{    
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 41, 39);
+    
+}
+
+.hero{
+    height: 360px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 2px;
+    
+}
+
+.content .penulis {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.content p {
+    margin-bottom: 30px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.foot {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
